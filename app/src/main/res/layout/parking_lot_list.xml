@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:background="@drawable/edittext"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/parking_lot_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lot N"
+            android:textSize="28sp"
+            android:layout_margin="10dp"
+            android:background="#30ffffff"
+            android:textAlignment="center"/>
+
+
+     </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
